@@ -1,0 +1,38 @@
+@baseUrl = https://jsonplaceholder.typicode.com
+@userId = 777
+
+###
+GET https://jsonplaceholder.typicode.com/posts
+
+###
+//Traditional way
+GET https://jsonplaceholder.typicode.com/posts?userId=1&id=2
+
+###
+//REST Client's way
+GET https://jsonplaceholder.typicode.com/posts
+    ?userId=1
+    &id=2
+
+###
+POST https://jsonplaceholder.typicode.com/posts
+content-type: application/json
+
+{
+    "title": "Ditching Postman for REST Client",
+    "body": "My 44 year old wife rates this idea very nice :)",
+    "userId": 777
+}
+
+###
+DELETE {{baseUrl}}/posts/100
+
+###
+PUT {{baseUrl}}/posts/100
+content-type: application/json
+
+{
+    "title": "Ditching Postman for REST Client",
+    "body": "My 24 year old wife rates this idea very nice :)",
+    "userId": {{userId}}
+}
