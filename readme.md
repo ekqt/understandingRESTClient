@@ -103,6 +103,8 @@ Great thing is that, no matter where you defined your file variables, they can b
 ## Why am I choosing REST Client
 It's always good to have options. However, the main selling point for me was that REST Client does have the upper hand over Postman given that requests are handily available at the root directory of your projects and can be distributed to everyone in the development team. This makes it easy to test your HTTP requests and ensure that your application development is progressively being made the right way. So give it a try, below you will find a link to a Github repository with all of the example requests listed above. Download/Pull the repository, install REST Client and test it out.
 
+[understandingRESTClient](https://github.com/ekqt/understandingRESTClient)
+
 Thank you for reading and happy REST-ing!
 
 Get in touch:
